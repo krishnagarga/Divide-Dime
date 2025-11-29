@@ -15,7 +15,7 @@ source .venv/bin/activate
 
 3. Install Dependencies
 
-If your project needs Pillow, install it with pip:
+ install it with pip:
 
 pip install pillow
 
