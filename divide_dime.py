@@ -78,7 +78,7 @@ class DivideDime:
         self.expenses_listbox = tk.Listbox(expense_section, height=5, font=("Arial", 10))
         self.expenses_listbox.pack(fill="x", pady=5)
 
-        # Calculate button
+        # Calculate button to calculate 
         tk.Button(main_frame, text="Calculate Split", bg="#3d2316", fg="white", font=("Arial", 14, "bold"), padx=30, pady=10, relief="flat", cursor="hand2", command=self.calculate_split).pack(pady=20)
 
     def add_person(self):
